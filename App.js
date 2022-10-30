@@ -24,6 +24,7 @@ import Gridview from './src/screens/Gridview'
 import Jsongridview from './src/screens/Jsongridview'
 import Registation from './src/screens/Registation'
 import GeneralFlatlist from './src/screens/GeneralFlatlist'
+import Splashscreen from './src/screens/Splashscreen'
 const Stack = createStackNavigator();
 
 const App = () => {
@@ -36,7 +37,8 @@ const App = () => {
     // </NavigationContainer>
     //  <Flatlist/>
     //  <VerticalFlatlist/>
-     <GeneralFlatlist/>
+    //  <GeneralFlatlist/>
+    <Splashscreen/>
     
   );
 };

@@ -27,6 +27,7 @@ import GeneralFlatlist from './src/screens/GeneralFlatlist'
 import Splashscreen from './src/screens/Splashscreen' 
 import SpalshscreenTwo from './src/screens/SpalshscreenTwo'
 import Signup from './src/screens/Signup'
+import RegisterScreen from'./src/screens/RegisterScreen'
 const Stack = createStackNavigator();
 
 const App = () => {
@@ -40,7 +41,7 @@ const App = () => {
     //  <Flatlist/>
     //  <VerticalFlatlist/>
     //  <GeneralFlatlist/>
-    <Signup/>
+    <RegisterScreen/>
     
   );
 };

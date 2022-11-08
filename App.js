@@ -28,6 +28,7 @@ import Splashscreen from './src/screens/Splashscreen'
 import SpalshscreenTwo from './src/screens/SpalshscreenTwo'
 import Signup from './src/screens/Signup'
 import RegisterScreen from'./src/screens/RegisterScreen'
+import Tabbar from './Tabbar'
 const Stack = createStackNavigator();
 
 const App = () => {
@@ -41,7 +42,7 @@ const App = () => {
     //  <Flatlist/>
     //  <VerticalFlatlist/>
     //  <GeneralFlatlist/>
-    <RegisterScreen/>
+    <Tabbar/>
     
   );
 };
